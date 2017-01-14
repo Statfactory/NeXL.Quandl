@@ -1,4 +1,4 @@
-﻿namespace NeXL.ManagedXll
+﻿namespace NeXL.Quandl
 open System
 open System.Windows
 open System.Windows.Controls
@@ -10,6 +10,7 @@ open System.Windows.Documents
 open System.Windows.Navigation
 open System.Windows.Media.Imaging
 open System.Reflection
+open NeXL.ManagedXll
 open StateManager
 open GlobalNames
 
@@ -69,7 +70,7 @@ module AboutWindow =
 
         let label3 = new TextBlock()
         label3.Margin <- new Thickness(5.)
-        label3.Text <- "©StatFactory Ltd UK 2016"
+        label3.Text <- "©StatFactory Ltd UK 2017"
         Grid.SetRow(label3, 3)
         Grid.SetColumn(label3, 0)
 

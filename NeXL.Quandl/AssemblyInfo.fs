@@ -1,4 +1,4 @@
-﻿namespace NeXL.Test.AssemblyInfo
+﻿namespace NeXL.Quandl
 
 open System.Reflection
 open System.Runtime.CompilerServices
